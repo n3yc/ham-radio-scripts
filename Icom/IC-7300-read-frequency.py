@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+# IC-7300-read-frequency.py
+
 # **** BEGIN LICENSE BLOCK ****
 #
 # This file is part of N3YC Ham Radio Scripts
