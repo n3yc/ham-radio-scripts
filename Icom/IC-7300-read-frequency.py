@@ -91,7 +91,7 @@ for x in [1, 100, 10000, 1000000]:
 	idx += 1
 
 # DISPLAY THE RESULT
-print(freq)
+print(f"{freq:,d}", "Hz")
 
 # CLOSE THE SERIAL PORT
 port.close()
