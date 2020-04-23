@@ -34,7 +34,6 @@
 # pip3 install pySerial
 # ======================================================== 
 
-
 # IMPORT SERIAL MODULE
 import serial
 
@@ -87,7 +86,7 @@ if (resp[4] != 0x03):
 # SUM THE FREQUENCY DIGITS
 idx = 5
 freq = 0;
-for x in [1, 100, 10000, 1000000]:
+for x in [1, 100, 10000, 1000000, 100000000]:
 	freq += x * (resp[idx] & 0xf)             # right digit
 	freq += 10 * x * ((resp[idx] >> 4) & 0xf) # left digit
 	idx += 1
