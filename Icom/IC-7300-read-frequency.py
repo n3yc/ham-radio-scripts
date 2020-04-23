@@ -34,8 +34,8 @@
 # pip3 install pySerial
 # ======================================================== 
 
-# IMPORT MODULES
-import time
+
+# IMPORT SERIAL MODULE
 import serial
 
 # THE RADIO AND OUR SCRIPT CI_V ADDRESSES
