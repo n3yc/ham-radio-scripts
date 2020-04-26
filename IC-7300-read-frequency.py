@@ -32,6 +32,12 @@
 #
 # INSTALL PYSERIAL ONCE FROM THE TERMINAL: 
 # pip3 install pySerial
+#
+# Radio Setting:
+# CI-V Address = 94h
+# CI-V USB Baud Rate = Auto
+# CI-V USB Port = Unlink from [REMOTE]
+# CI-V USB Echo Back = OFF
 # ======================================================== 
 
 # IMPORT SERIAL MODULE
